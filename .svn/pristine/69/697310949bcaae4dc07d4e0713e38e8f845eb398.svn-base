@@ -1,0 +1,50 @@
+#10-imageUrl=http://desarrolloj6.colsanitas.com:8480/usuarios/ConfirmacionPago-portlet/images/COLSANITAS.jpg
+10-imageUrl=https://osiapppre02.colsanitas.com/usuarios/ConfirmacionPago-portlet/images/COLSANITAS.jpg
+#10-imageUrl=https://portal.colsanitas.com/usuarios/ConfirmacionPago-portlet/images/COLSANITAS.jpg
+10-description=Colsanitas S.A. Compa\u00F1ia de Medicina Prepagada
+10-nit=Nit 860.078.828-7
+#20-imageUrl=http://desarrolloj6.colsanitas.com:8480/usuarios/ConfirmacionPago-portlet/images/MEDISANITAS.jpg
+#20-imageUrl=https://osiapppre02.colsanitas.com/usuarios/ConfirmacionPago-portlet/images/MEDISANITAS.jpg
+20-imageUrl=https://portal.colsanitas.com/usuarios/ConfirmacionPago-portlet/images/MEDISANITAS.jpg
+
+20-description=Medisanitas S.A. Compa\u00F1ia de Medicina Prepagada
+20-nit=Nit 800.153.424-8
+pdf-file-name=ComprobantePago
+
+
+#API MANAGER PRE
+transactions-path=http\://papi.colsanitas.com/osi/api/afiliado/mp/v1.0.0/transacciones
+equivalent-doc-path=http\://papi.colsanitas.com/osi/api/afiliado/v1.0.0/documentoequivalente
+verify-payment-path=http\://papi.colsanitas.com/osi/api/afiliado/mp/1.0.0/pagoszp
+vouchers-payment-path=https\://papi.colsanitas.com/osi/api/afiliado/mp/v1.0.0/pagosvales
+
+#API REST PRE
+#transactions-path=http\://osiapppre02.colsanitas.com/osi/api/afiliado/mp/transacciones
+#equivalent-doc-path=http\://osiapppre02.colsanitas.com/osi/api/afiliado/documentoequivalente
+#verify-payment-path=http\://osiapppre02.colsanitas.com/osi/api/afiliado/mp/pagoszp
+#vouchers-payment-path=http://osiapppre02.colsanitas.com/osi/api/afiliado/pagosvales
+
+#API MANAGER PRODUCCION
+#transactions-path=https://api.colsanitas.com/osi/api/afiliado/mp/v1.0.0/transacciones
+#equivalent-doc-path=https://api.colsanitas.com/osi/api/afiliado/v1.0.0/documentoequivalente
+#verify-payment-path=https://api.colsanitas.com/osi/api/afiliado/mp/v1.0.0/pagoszp
+#vouchers-payment-path=https://api.colsanitas.com/osi/api/afiliado/mp/v1.0.0/pagosvales
+                      
+
+portlet-group=MP
+
+channel=344.prest
+concept=11
+state=3
+#station-code=981
+station-code=344
+default-city-code=11001
+
+#method-type=E
+method-type=D
+
+method-code-pse=5
+method-code-credit-card=3
+card-number=000000
+
+franchise-code=American-86,Credencial-82,Diners Club-84,Visa-81,Master Card-87

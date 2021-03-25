@@ -1,0 +1,26 @@
+payment-success=Tu pago ha sido realizado exitosamente
+new-contract-payment=Confirmaci&oacute;n de pago
+payment-error=Pago rechazado.
+#payment-pending=Tu pago se encuentra en estado pendiente, Valida m&#225;s tarde.
+#payment-pending=En este momento su Numero de Referencia o Factura # {0} presenta un proceso de pago cuya transacción se encuentra PENDIENTE de recibir confirmación por parte de su entidad financiera, por favor espere unos minutos y vuelva a consultar más tarde para verificar si su pago fue confirmado de forma exitosa. Si desea mayor información sobre el estado actual de su operación puede comunicarse a nuestras líneas de atención al cliente 57-19999999 o enviar un correo electronico a email@email.com.co y preguntar por el estado de la transacción:{1}
+payment-pending=Su pago con referencia número {0}  se encuentra en estado pendiente con la transacción {1}, consulte más tarde el resultado de su operación. Si desea mayor información puede comunicarse a teléfono 6466060 Ext. 5711611 o enviar correo electrónico  carteramp@colsanitas.com
+payment-vouchers-pending=Tu compra está en proceso, la información de tu pago y la asignación de vale(s)  será enviada  al correo {0}  en un tiempo no mayor a 30 minutos. 
+COLSANITAS-description=Colsanitas S.A. Compa\u00F1ia de Medicina Prepagada
+fatal-error-message=Ha ocurrido un error inesperado, int&eacute;ntalo m&aacute;s tarde.
+equivalent-doc-error=No existe soporte de compra.
+
+title-payment-information=Informaci&oacute;n de Pago
+
+
+field-asigned-vouchers=Vales electr&oacute;nicos asignados:
+field-value=Valor:
+field-transaction-date=Fecha y hora:
+field-bank-code=Banco origen:
+field-franchise=Franquicia:
+field-transaction-type=Tipo de transacci&oacute;n:
+field-reference-number=No. Referencia:
+field-ip-address=Direcci&oacute;n IP:
+
+button-equivalent-doc=Ver soporte de pago
+button-print=Imprimir
+button-finish=Finalizar
