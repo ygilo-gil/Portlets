@@ -46,7 +46,7 @@
 						maxFractionDigits="0" /></td>
 			</tr>
 					<c:choose>
-						<c:when test="${portletSessionScope.transaction.detail.paymentMethod == '10' || portletSessionScope.transaction.detail.paymentMethod == '29'}">
+						<c:when test="${portletSessionScope.transaction.detail.paymentMethod == '4' || portletSessionScope.transaction.detail.paymentMethod == '29'}">
 							<tr>
 								<td><liferay-ui:message key="field-transaction-date"/></td>
 								<td>${portletSessionScope.transaction.detail.pseDate}</td>
