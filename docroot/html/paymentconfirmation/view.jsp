@@ -56,7 +56,7 @@
 								<td>${portletSessionScope.transaction.detail.bankName}</td>
 							</tr>
 						</c:when>
-						<c:when test="${portletSessionScope.transaction.detail.paymentMethod == '100' || portletSessionScope.transaction.detail.paymentMethod == '31' || portletSessionScope.transaction.detail.paymentMethod == '32'}">
+						<c:when test="${portletSessionScope.transaction.detail.paymentMethod == '45' || portletSessionScope.transaction.detail.paymentMethod == '31' || portletSessionScope.transaction.detail.paymentMethod == '32'}">
 							<tr>
 								<td><liferay-ui:message key="field-transaction-date"/></td>
 								<td>${portletSessionScope.transaction.detail.pseDate}</td>
